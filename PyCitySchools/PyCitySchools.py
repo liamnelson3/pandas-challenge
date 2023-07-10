@@ -28,7 +28,7 @@ school_data_complete.head()
 # %%
 # Calculate the total number of unique schools
 school_count = school_data_complete["school_name"].unique()
-len(school_count)
+school_count = len(school_count)
 
 # %%
 # Calculate the total number of students
